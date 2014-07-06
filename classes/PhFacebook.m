@@ -180,6 +180,11 @@
     return [[_authToken.authenticationToken copy] autorelease];
 }
 
+- (NSDate*) expirey
+{
+    return [[_authToken.expiry copy] autorelease];
+}
+
 - (void) sendFacebookRequest: (NSDictionary*) allParams
 {
     NSAutoreleasePool *pool = [NSAutoreleasePool new];

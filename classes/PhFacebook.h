@@ -41,6 +41,7 @@
 
 - (void) setAccessToken: (NSString*) accessToken expires: (NSTimeInterval) tokenExpires permissions: (NSString*) perms error: (NSString*) errorReason;
 - (NSString*) accessToken;
+- (NSDate*) expirey;
 
 - (void) webViewWillShowUI;
 - (void) didDismissUI;
